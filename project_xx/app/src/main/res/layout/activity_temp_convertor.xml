@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tempConvertorActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/rounded_corner"
+        android:elevation="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="13dp">
+
+
+        <EditText
+            android:id="@+id/box1"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/box_round"
+            android:elevation="6dp"
+            android:fontFamily="@font/andada"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/box2"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="417dp"
+            android:background="@drawable/box_round"
+            android:elevation="6dp"
+            android:fontFamily="@font/andada"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <Spinner
+            android:id="@+id/spn1"
+            android:layout_width="116dp"
+            android:layout_height="47dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="133dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginRight="34dp"
+            android:spinnerMode="dropdown" />
+
+        <Spinner
+            android:id="@+id/spn2"
+            android:layout_width="116dp"
+            android:layout_height="47dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="34dp"
+            android:layout_marginRight="34dp"
+            android:layout_marginBottom="426dp"
+            android:spinnerMode="dropdown" />
+
+        <Button
+            android:id="@+id/convertor"
+            android:layout_width="175dp"
+            android:layout_height="77dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="154dp"
+            android:layout_marginRight="154dp"
+            android:layout_marginBottom="224dp"
+            android:backgroundTint="@color/brown"
+            android:elevation="15dp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:onClick="toCon"
+            android:text="CONVERT"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+
+        android:textColor="@color/black" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

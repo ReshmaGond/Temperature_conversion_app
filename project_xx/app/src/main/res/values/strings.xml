@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">project_xx</string>
+    <string-array name="Temperature">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+</resources>
